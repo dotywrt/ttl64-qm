@@ -1,0 +1,7 @@
+chain mangle_forward {
+    type filter hook forward priority mangle; policy accept;
+    oifname "wwan0" ip ttl set 64
+    oifname "wwan0" ip6 hoplimit set 64
+    oifname "wwan0_1" ip ttl set 64
+    oifname "wwan0_1" ip6 hoplimit set 64
+}
