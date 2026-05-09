@@ -25,6 +25,3 @@ chown root:root /etc/config/qmodem_ttl
 chown root:root /etc/init.d/qmodem_ttl
 chown root:root /usr/lib/lua/luci/model/cbi/qmodem/modem_ttl.lua
 chown root:root /etc/nftables.d/ttl64.nft
-
-/etc/init.d/qmodem_ttl enable
-/etc/init.d/qmodem_ttl restart
